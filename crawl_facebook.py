@@ -10,7 +10,7 @@ from datetime import datetime
 import pandas as pd
 
 # Khai báo browser
-driver = webdriver.Chrome('D:\BuenasApp\crawl\chromedriver.exe')
+driver = webdriver.Chrome()
 
 # driver.get("https://www.facebook.com")
 # txtUser = driver.find_element(By.ID,"email")
